@@ -1,0 +1,16 @@
+<div class="col-sm-3 d-inline-block" style="padding: 18px 24px">
+  <div class="card">
+    <div class="card-header">
+      {{contactName}}
+    </div>
+    <div class="card-block">
+      <p class="card-text" style="padding: 18px 24px">
+        {{contactNumber}}
+      </p>
+      <div style="margin-left: 5px; margin-bottom: 5px">
+        <button class="btn btn-primary" (click)="onEdit(index)">Edit</button>
+        <button class="btn btn-danger" (click)="onDelete(index)">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
